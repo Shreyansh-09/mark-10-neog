@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+
+:root {
+    --primary-color: #155e75;
+    --secondary-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    max-width: 900px;
+    margin: 0rem auto;
+    padding: 1rem;
+}
+
+.heading {
+    font-family: inherit;
+    font-weight: 1rem;
+    font-size: 40px;
+
+}
+
+.description {
+    font-size: 20px;
+}
+
+div {
+    display: block;
+}
+
+.input-label {
+    display: block;
+    margin: 1rem auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.input {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 30%;
+    border: 3px solid var(--primary-color);
+}
+
+#btn-check {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: large;
+    margin: 1rem auto;
+    width: 15%;
+}
+
+.change-table {
+    border: 2px solid var(--primary-color);
+    border-collapse: collapse;
+    margin: auto;
+    width: 85%;
+    text-align: justify;
+}
+
+.change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+th, td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: large;
+}
+
+.footer-list {
+    margin: 1rem;
+}
+
+img {
+    width: 40px;
+    padding: 0.2rem;
+}
+
+a, img, li {
+    display: inline;
+}
