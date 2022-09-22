@@ -9,9 +9,9 @@ var notes = [2000,500,100,20,10,5,1]
 
 function validateBillandCashAmount(){
     hideMessage()
-    if (billAmount.value > 0){
-        if(cashGiven.value >= billAmount.value){
-            var amountToBeReturned = cashGiven.value - billAmount.value;
+    if (Number(billAmount.value) > 0){
+        if(Number(cashGiven.value) >= Number(billAmount.value)){
+            var amountToBeReturned = Number(cashGiven.value) - Number(billAmount.value);
             calculateNotes(amountToBeReturned)
         }
         else{
