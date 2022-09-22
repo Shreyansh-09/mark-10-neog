@@ -79,25 +79,3 @@ th, td {
     border-collapse: collapse;
     padding: 0.4rem;
 }
-
-footer {
-    text-align: center;
-}
-
-footer p {
-    text-align: center;
-    font-size: large;
-}
-
-.footer-list {
-    margin: 1rem;
-}
-
-img {
-    width: 40px;
-    padding: 0.2rem;
-}
-
-a, img, li {
-    display: inline;
-}
